@@ -1,30 +1,30 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Hi, I am Manfred Werner',
+  tagline: 'I am on the path of discovering the world of Frontend Development. I want you to be a part of it! I am also muy gordito and sexy',
+  url: 'https://manfredwern.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'manfredwern', // Usually your GitHub org/user name.
+  projectName: 'manfredwern.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Manfred Werner',
+      // logo: {
+      //   alt: 'My Site Logo',
+      //   src: 'img/logo.svg',
+      // },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'CV',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/manfredwern/manfredwern.github.io',
           label: 'GitHub',
           position: 'right',
         },
