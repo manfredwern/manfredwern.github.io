@@ -1,10 +1,10 @@
-name: next
+name: documentation
 
 on:
   pull_request:
-    branches: [next]
+    branches: [documentation]
   push:
-    branches: [next]
+    branches: [documentation]
 
 jobs:
   checks:
@@ -51,8 +51,8 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          git config --global user.email "manfredwern@gmail.com"
-          git config --global user.name "manfredwern"
+          git config --global user.email "actions@github.com"
+          git config --global user.name "gh-actions"
           if [ -e yarn.lock ]; then
           yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
