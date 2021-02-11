@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Hi, I am Manfred Werner',
+  title: 'Hi, I am Manfred Wern',
   tagline: 'I am on the path of discovering the world of Frontend Development. I want you to be a part of it!',
   url: 'https://manfredwern.github.io',
   baseUrl: '/',
