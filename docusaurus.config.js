@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Hi, I am Manfred Werner',
-  tagline: 'I am on the path of discovering the world of Frontend Development. I want you to be a part of it!',
+  tagline: 'I am on the path of discovering the world of Frontend Development. I want you to be a part of it! new',
   url: 'https://manfredwern.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
