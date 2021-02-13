@@ -5,35 +5,38 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import { faHome, faCode } from "@fortawesome/free-solid-svg-icons";
+import { faPhp } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Stay focus',
+    imageUrl: 'img/undraw_work_in_progress_uhmv.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        One thing that could help you reach your dream is to stay focused.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'There is more out there',
+    imageUrl: 'img/undraw_the_search_s0xf.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        There&apos;s so much to discover with so little time, that&apos;s I try
+        to do my best to go out there and to see more about the world, tech and opportunities.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Always updated',
+    imageUrl: 'img/undraw_developer_activity_bv83.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I try my best to keep myself updated on the latest tech trend and if
+        there is always something I can learn from.
+        
       </>
     ),
   },
@@ -65,14 +68,17 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+
+        <img src={useBaseUrl('img/undraw_profile_pic_ic5t.svg')} className={styles.heroImage}></img>
+
           <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Download CV
+              to={useBaseUrl('cv/')}>
+              Get to know me
             </Link>
           </div>
         </div>
