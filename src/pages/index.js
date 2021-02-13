@@ -5,13 +5,10 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import { faHome, faCode } from "@fortawesome/free-solid-svg-icons";
-import { faPhp } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const features = [
   {
-    title: 'Stay focus',
+    title: 'Stay focused',
     imageUrl: 'img/undraw_work_in_progress_uhmv.svg',
     description: (
       <>
