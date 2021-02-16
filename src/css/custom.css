@@ -23,3 +23,16 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.fa-border {
+  border-color: transparent !important;
+}
+
+
+[data-theme="light"] .bgLightGrey {
+  background-color: var(--ifm-color-gray-100);
+}
+
+[data-theme="dark"] .bgLightGrey {
+  background-color: var(--ifm-color-gray-800);
+}

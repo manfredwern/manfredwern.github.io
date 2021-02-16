@@ -1,7 +1,17 @@
 ---
 id: education
-title: Education
-sidebar_label: Education
+title: Training Logs
+sidebar_label: Online Training
+---
+
+## Management of CMS
+#### 03/2016 - 05/2016 - Berlin, Germany
+`FiGD (Fachinstitut für Informatik und Grafikdesign)`
+- Object-oriented programming in PHP 
+- Integration of MySQL database
+- Content Management Systems (Typo3 and WordPress)
+- Web Development with AJAX
+
 ---
 
 I did online training to enhance my knowledge mainly on:

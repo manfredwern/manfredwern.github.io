@@ -5,6 +5,8 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngular, faJs, faHtml5, faCss3Alt, faPython, faGit, faNpm, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 
 const features = [
   {
@@ -75,7 +77,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('cv/')}>
-              Get to know me
+              Get Started
             </Link>
           </div>
         </div>
@@ -90,8 +92,32 @@ function Home() {
                 ))}
               </div>
             </div>
-          </section>
+          </section>       
         )}
+        <section className="bgLightGrey">
+        <div className="container">
+              <div className="row row--align-center">
+                <div className="col">
+
+                <h2>Here are some of the tech I use daily</h2>
+                </div>
+                <div className="col">
+
+        <FontAwesomeIcon icon={faAngular} size="5x" pull="left" border/>
+        <FontAwesomeIcon icon={faHtml5} size="5x" pull="left" border/>
+        <FontAwesomeIcon icon={faCss3Alt} size="5x" pull="left" border/>
+        <FontAwesomeIcon icon={faJs} size="5x" pull="left" border/>
+    
+        <FontAwesomeIcon icon={faBootstrap} size="5x" pull="left" border/>
+        <FontAwesomeIcon icon={faPython} size="5x" pull="left" border/>
+        <FontAwesomeIcon icon={faGit} size="5x" pull="left" border/>
+        <FontAwesomeIcon icon={faNpm} size="5x" pull="left" border/>
+
+
+</div>
+              </div>
+            </div>
+        </section>
       </main>
     </Layout>
   );

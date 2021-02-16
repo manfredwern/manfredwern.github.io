@@ -31,27 +31,27 @@ module.exports = {
   //   ],
   // },
   aboutMeSidebar: [
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: ['about-me','technical-skills']
+    },
     // {
-    //   type: 'category',
-    //   label: 'About Me',
-    //   items: ['about-me','technical-skills']
+    //   type: 'doc',
+    //   id: 'about-me'
     // },
-    {
-      type: 'doc',
-      id: 'about-me'
-    },
-    {
-      type: 'doc',
-      id: 'technical-skills'
-    },
-    {
-      type: 'doc',
-      id: 'work-experience'
-    },
-    {
-      type: 'doc',
-      id: 'education'
-    },
+    // {
+    //   type: 'doc',
+    //   id: 'technical-skills'
+    // },
+    // {
+    //   type: 'doc',
+    //   id: 'work-experience'
+    // },
+    // {
+    //   type: 'doc',
+    //   id: 'education'
+    // },
     // {
     //   type: 'doc',
     //   id: 'doc2'

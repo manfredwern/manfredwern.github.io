@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Hi, I'm Manfred Wern",
+  title: "Hi, I'm Manfred Werner",
   tagline: 'Dream big. Discover. Never stop learning.',
   url: 'https://manfredwern.github.io',
   baseUrl: '/',
@@ -13,7 +13,7 @@ module.exports = {
       theme: require('prism-react-renderer/themes/nightOwlLight'),
     },
     navbar: {
-      title: 'Manfred Werner',
+      title: 'manfredwern',
       // logo: {
       //   alt: 'My Site Logo',
       //   src: 'img/logo.svg',
@@ -25,6 +25,7 @@ module.exports = {
           label: 'About me',
           position: 'left',
         },
+        {to: 'playground', label: 'Playground', position: 'left'},
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/manfredwern/manfredwern.github.io',
