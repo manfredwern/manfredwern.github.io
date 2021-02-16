@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Hi, I'm Manfred Wern Blog</title>
+        <title>Hi, I'm Manfred Werner Blog</title>
         <link>https://manfredwern.github.io/blog</link>
-        <description>Hi, I'm Manfred Wern Blog</description>
+        <description>Hi, I'm Manfred Werner Blog</description>
         <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
