@@ -12,17 +12,30 @@ function Playground() {
                 <div className="container">
                     <div className="row">
                         <div className="col text--center">
-                            <h1>MY SHOWCASE</h1>
+                            <h1>Showroom</h1>
+                            <p>Below are the projects that I am currently building to level up my skills</p>
                         </div>
                     </div>
 
                     <div className="row row--align-center">
                         <div className="col text--center">
-                            <Link
-                                className={styles.featureProjectText}
-                                to="https://nasa-apod-gallery.herokuapp.com/">
-                                APOD NASA Gallery                        
+                            <div className={clsx('card', styles.cardUp)}>
+                                <Link
+                                    className="projectTitle"
+                                    to="https://nasa-apod-gallery.herokuapp.com/">
+                                    Astronomy picture of the day
                             </Link>
+                                <div className="card__body">
+                                    <div className="avatar">
+                                        <div className="avatar__intro margin-left--none">
+                                            <div className="text--center">
+                                                <p>Travel back in time to discover the cosmos captured by nasa</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>

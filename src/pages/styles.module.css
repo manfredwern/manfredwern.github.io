@@ -12,6 +12,17 @@
   overflow: hidden;
 }
 
+.tiltedBottom {
+  -webkit-clip-path: polygon(0 0,100% 0,100% calc(100% - 6vw),0 100%);
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 6vw),0 100%);
+}
+
+.tiltedTop {
+  -webkit-clip-path: polygon(0 0,100% 0,100% calc(100% - 6vw),0 100%);
+  clip-path: polygon(0 0, 100% 65px, 100% 100%, 0% 100%);
+  padding-top: 5em;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
@@ -42,15 +53,21 @@
 }
 
 section {
-  padding: 2rem 0;
+  padding: 4rem 2rem;
 }
 
 .bgLightGrey {
   background-color: var(--ifm-color-gray-1000);
 }
 
-
-.featureProjectText {
-  font-size: 4em;
+.cardUp {
+  padding: 3rem;
+  margin: 2rem 1rem;
+  box-shadow: none;
+  transition: all 0.85s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
+
+.cardUp:hover {
+  box-shadow: 0px 12px 27px 8px rgb(0 0 0 / 12%);
+} 
 

@@ -17,6 +17,13 @@
   --ifm-code-font-size: 95%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&family=Trispace:wght@800&display=swap');
+
+html, body {
+  font-family: 'Inter', sans-serif;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -35,4 +42,14 @@
 
 [data-theme="dark"] .bgLightGrey {
   background-color: var(--ifm-color-gray-800);
+}
+
+.projectTitle {
+  font-family: 'Trispace', sans-serif;
+  font-weight: 800;
+  font-size: 5em;
+}
+
+.footer__links {
+  margin-bottom: 2rem;
 }

@@ -29,11 +29,11 @@ const features = [
     ),
   },
   {
-    title: 'Always updated',
+    title: 'Be curious',
     imageUrl: 'img/undraw_developer_activity_bv83.svg',
     description: (
       <>
-        I try my best to keep myself updated on the latest tech trend and if
+        Fast learner, higly adaptable and I do my best to keep myself updated on the latest tech trend and if
         there is always something I can learn from.
         
       </>
@@ -63,13 +63,13 @@ function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero--primary', styles.heroBanner, styles.tiltedBottom)}>
         <div className="container">
+          <div className="row row--align-center">
+            <div className="col">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-
-        <img src={useBaseUrl('img/undraw_profile_pic_ic5t.svg')} className={styles.heroImage}></img>
-
+   
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -80,6 +80,15 @@ function Home() {
               Get Started
             </Link>
           </div>
+
+            </div>
+            <div className="col">
+
+        <img src={useBaseUrl('img/undraw_profile_pic_ic5t.svg')} className={styles.heroImage}></img>
+            </div>
+          </div>
+
+
         </div>
       </header>
       <main>
@@ -94,24 +103,23 @@ function Home() {
             </div>
           </section>       
         )}
-        <section className="bgLightGrey">
+        <section className={clsx('bgLightGrey', styles.tiltedTop)}>
         <div className="container">
               <div className="row row--align-center">
                 <div className="col">
 
-                <h2>Here are some of the tech I use daily</h2>
+                <h2>Supported tools</h2>
+                <p>Here are some of the Languages and Framework that I use on a daily basis.</p>
                 </div>
                 <div className="col">
 
-        <FontAwesomeIcon icon={faAngular} size="5x" pull="left" border/>
-        <FontAwesomeIcon icon={faHtml5} size="5x" pull="left" border/>
-        <FontAwesomeIcon icon={faCss3Alt} size="5x" pull="left" border/>
-        <FontAwesomeIcon icon={faJs} size="5x" pull="left" border/>
-    
-        <FontAwesomeIcon icon={faBootstrap} size="5x" pull="left" border/>
-        <FontAwesomeIcon icon={faPython} size="5x" pull="left" border/>
-        <FontAwesomeIcon icon={faGit} size="5x" pull="left" border/>
-        <FontAwesomeIcon icon={faNpm} size="5x" pull="left" border/>
+        <FontAwesomeIcon icon={faAngular} size="4x" pull="left" border/>
+        <FontAwesomeIcon icon={faHtml5} size="4x" pull="left" border/>
+        <FontAwesomeIcon icon={faCss3Alt} size="4x" pull="left" border/>
+        <FontAwesomeIcon icon={faJs} size="4x" pull="left" border/>
+        <FontAwesomeIcon icon={faBootstrap} size="4x" pull="left" border/>
+        <FontAwesomeIcon icon={faGit} size="4x" pull="left" border/>
+        <FontAwesomeIcon icon={faNpm} size="4x" pull="left" border/>
 
 
 </div>

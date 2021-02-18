@@ -36,52 +36,53 @@ module.exports = {
     },
     sidebarCollapsible: false,
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'About me',
-          items: [
-            {
-              label: 'Skills',
-              to: 'cv/technical-skills',
-            },
-            {
-              label: 'Work Experience',
-              to: 'cv/work-experience',
-            },
-          ],
-        },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: 'https://twitter.com/docusaurus',
-        //     },
-        //   ],
-        // },
-        {
-          title: 'More',
-          items: [
-            // {
-            //   label: 'Blog',
-            //   to: 'blog',
-            // },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
+      style: 'light',
+      // links: [
+      //   {
+      //     title: 'About me',
+      //     items: [
+      //       {
+      //         label: 'Skills',
+      //         to: 'cv/technical-skills',
+      //       },
+      //     ],
+      //   },
+      //   // {
+      //   //   title: 'Community',
+      //   //   items: [
+      //   //     {
+      //   //       label: 'Stack Overflow',
+      //   //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //   //     },
+      //   //     {
+      //   //       label: 'Discord',
+      //   //       href: 'https://discordapp.com/invite/docusaurus',
+      //   //     },
+      //   //     {
+      //   //       label: 'Twitter',
+      //   //       href: 'https://twitter.com/docusaurus',
+      //   //     },
+      //   //   ],
+      //   // },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       // {
+      //       //   label: 'Blog',
+      //       //   to: 'blog',
+      //       // },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/facebook/docusaurus',
+      //       },
+      //     ],
+      //   },
+      // ],
+      logo: {
+        alt: 'Facebook Open Source Logo',
+        // src: 'img/oss_logo.png',
+        // href: 'https://opensource.facebook.com',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Manfred Werner. Built with Docusaurus!`,
     },
   },

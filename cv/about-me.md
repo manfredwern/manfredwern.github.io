@@ -27,7 +27,7 @@ npm run start
 
 I have always been interested with photography. I find it as an art to express yourself and that every detail matters. But what I like the most is the beauty of surpise that you could capture without even knowing it in the beginning. It is the same thing as coding, you just start with an idea but it evolves into something more beautiful.
 
-## Supported Languages
+## Internationalization
 
 Being raised in a mixed culture, I am blessed to know these multiple languages. 
 
