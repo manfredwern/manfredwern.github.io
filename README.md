@@ -1,33 +1,20 @@
-# Website
+# manfredwern.github.io
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+#### Welcome to my portfolio. 
 
-## Installation
+This page is to showcase information about me and the projects that I am working on where I practice my coding skills.
 
-```console
-yarn install
-```
 
-## Local Development
+## Development
 
-```console
-yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+The tool that I am using to build this project is [Docusaurus 2](https://v2.docusaurus.io/). The idea is for my porfolio to look like a documentation about me.
 
 ## Deployment
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+My page is hosted at Github pages.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Visit my page
+
+You can reach my page at https://manfredwern.github.io/
+
+### Thank you 🙂

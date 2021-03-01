@@ -6,42 +6,40 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faJs, faHtml5, faCss3Alt, faPython, faGit, faNpm, faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faJs, faHtml5, faCss3Alt, faGit, faNpm, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 
 const features = [
   {
-    title: 'Stay focused',
-    imageUrl: 'img/undraw_work_in_progress_uhmv.svg',
+    title: 'Goal oriented',
+    imageUrl: 'img/undraw_completed_ngx6.svg',
     description: (
       <>
-        One thing that could help you reach your dream is to stay focused.
+        Staying focused is a key factor for me to reach my goals.
       </>
     ),
   },
   {
-    title: 'There is more out there',
-    imageUrl: 'img/undraw_the_search_s0xf.svg',
+    title: 'Highly adaptable',
+    imageUrl: 'img/undraw_design_objectives_fy1r.svg',
     description: (
       <>
-        There&apos;s so much to discover with so little time, that&apos;s I try
-        to do my best to go out there and to see more about the world, tech and opportunities.
+        No matter what challenges I face, being adaptable is always a way for me to overcome and complete my tasks.
+        This also helps me to discover what else I can do.
       </>
     ),
   },
   {
-    title: 'Be curious',
+    title: 'Hands-on',
     imageUrl: 'img/undraw_developer_activity_bv83.svg',
     description: (
       <>
-        Fast learner, higly adaptable and I do my best to keep myself updated on the latest tech trend and if
-        there is always something I can learn from.
-        
+        There is no better way to learn than practice. That is why I believe in learning by doing.
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -58,7 +56,7 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -67,24 +65,23 @@ function Home() {
         <div className="container">
           <div className="row row--align-center">
             <div className="col">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-   
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('cv/')}>
-              Get Started
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+
+              <div className={styles.buttons}>
+                <Link
+                  className={clsx(
+                    'button button--secondary button--lg',
+                    styles.getStarted,
+                  )}
+                  to={useBaseUrl('cv/')}>
+                  Get Started
             </Link>
-          </div>
+              </div>
 
             </div>
             <div className="col">
-
-        <img src={useBaseUrl('img/undraw_profile_pic_ic5t.svg')} className={styles.heroImage}></img>
+              <img src={useBaseUrl('img/profile_photo_werner.png')} className={styles.heroImage}></img>
             </div>
           </div>
 
@@ -101,30 +98,30 @@ function Home() {
                 ))}
               </div>
             </div>
-          </section>       
+          </section>
         )}
         <section className={clsx('bgLightGrey', styles.tiltedTop)}>
-        <div className="container">
-              <div className="row row--align-center">
-                <div className="col">
+          <div className="container">
+            <div className="row row--align-center">
+              <div className="col">
 
                 <h2>Supported tools</h2>
-                <p>Here are some of the Languages and Framework that I use on a daily basis.</p>
-                </div>
-                <div className="col">
+                <p>Here are my most frequently used Framework and Languages.</p>
+              </div>
+              <div className="col">
 
-        <FontAwesomeIcon icon={faAngular} size="4x" pull="left" border/>
-        <FontAwesomeIcon icon={faHtml5} size="4x" pull="left" border/>
-        <FontAwesomeIcon icon={faCss3Alt} size="4x" pull="left" border/>
-        <FontAwesomeIcon icon={faJs} size="4x" pull="left" border/>
-        <FontAwesomeIcon icon={faBootstrap} size="4x" pull="left" border/>
-        <FontAwesomeIcon icon={faGit} size="4x" pull="left" border/>
-        <FontAwesomeIcon icon={faNpm} size="4x" pull="left" border/>
+                <FontAwesomeIcon icon={faAngular} size="4x" pull="left" border />
+                <FontAwesomeIcon icon={faHtml5} size="4x" pull="left" border />
+                <FontAwesomeIcon icon={faCss3Alt} size="4x" pull="left" border />
+                <FontAwesomeIcon icon={faJs} size="4x" pull="left" border />
+                <FontAwesomeIcon icon={faBootstrap} size="4x" pull="left" border />
+                <FontAwesomeIcon icon={faGit} size="4x" pull="left" border />
+                <FontAwesomeIcon icon={faNpm} size="4x" pull="left" border />
 
 
-</div>
               </div>
             </div>
+          </div>
         </section>
       </main>
     </Layout>

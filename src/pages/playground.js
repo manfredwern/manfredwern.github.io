@@ -13,7 +13,7 @@ function Playground() {
                     <div className="row">
                         <div className="col text--center">
                             <h1>Showroom</h1>
-                            <p>Below are the projects that I am currently building to level up my skills</p>
+                            <p>Here are some of projects that I am currently building to level up my skills</p>
                         </div>
                     </div>
 

@@ -4,12 +4,15 @@ title: Development environment
 sidebar_label: Technical Skills
 ---
 
-## Web Development
+## Frontend skills
 
-I find it fascinating on how diverse the world of Web Development is and that Languages and libraries compliment each other.
-I like using these tools and languages to translate my ideas and build it for the web. 
+Run this command to get ready for production:
 
-Since updates are never ending, I do my best keep to learning and be up-to-date for my Frontend skills.
+```bash
+npm run build manfredwern
+```
+
+Here are the programming languages, frameworks, and tools that help me develop web applications.
 
 
 ```json title="Technical skills"
@@ -18,8 +21,8 @@ Since updates are never ending, I do my best keep to learning and be up-to-date 
     "languages": [
       "HTML5",
       "CSS3",
-      "Javascript",
-      "Typescript",s
+      "JavaScript",
+      "TypeScript",
       "Python",
       "PHP",
     ],
@@ -33,8 +36,9 @@ Since updates are never ending, I do my best keep to learning and be up-to-date 
     "libraries": [
         "npm",
         "yarn",
+        "jQuery",
     ],
-    "database": [
+    "databases": [
         "MYSQL",
     ],
     "tools": [
@@ -42,7 +46,8 @@ Since updates are never ending, I do my best keep to learning and be up-to-date 
         "PyCharm",
         "git",
         "postman",
-        "Wordpress",
+        "node.js",
+        "WordPress",
         "Adobe Photoshop",
         "Adobe InDesign",
     ]

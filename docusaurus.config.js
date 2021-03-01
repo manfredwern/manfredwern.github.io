@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Hi, I'm Manfred Werner",
-  tagline: 'Dream big. Discover. Never stop learning.',
+  title: "Hi, I'm Manfred.",
+  tagline: "I'm a naturally curious person in search of new coding experiences 👨‍💻",
   url: 'https://manfredwern.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -28,7 +28,7 @@ module.exports = {
         {to: 'playground', label: 'Playground', position: 'left'},
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/manfredwern/manfredwern.github.io',
+          href: 'https://github.com/manfredwern',
           label: 'GitHub',
           position: 'right',
         },
@@ -83,7 +83,7 @@ module.exports = {
         // src: 'img/oss_logo.png',
         // href: 'https://opensource.facebook.com',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Manfred Werner. Built with Docusaurus!`,
+      copyright: `Copyright © ${new Date().getFullYear()} Manfred Werner`,
     },
   },
   presets: [
