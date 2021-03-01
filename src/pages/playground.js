@@ -3,6 +3,8 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMeteor } from '@fortawesome/free-solid-svg-icons'
 
 
 function Playground() {
@@ -12,7 +14,7 @@ function Playground() {
                 <div className="container">
                     <div className="row">
                         <div className="col text--center">
-                            <h1>Showroom</h1>
+                            <h1>Showroom <FontAwesomeIcon icon={faMeteor} size="1x" /></h1>
                             <p>Here are some of projects that I am currently building to level up my skills</p>
                         </div>
                     </div>
@@ -21,10 +23,10 @@ function Playground() {
                         <div className="col text--center">
                             <div className={clsx('card', styles.cardUp)}>
                                 <Link
-                                    className="projectTitle"
+                                    className={styles.projectTitle}
                                     to="https://nasa-apod-gallery.herokuapp.com/">
                                     Astronomy picture of the day
-                            </Link>
+                                </Link>
                                 <div className="card__body">
                                     <div className="avatar">
                                         <div className="avatar__intro margin-left--none">

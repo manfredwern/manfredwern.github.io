@@ -5,12 +5,19 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon/favicon.ico',
   organizationName: 'manfredwern', // Usually your GitHub org/user name.
   projectName: 'manfredwern.github.io', // Usually your repo name.
   themeConfig: {
+    metadatas: [{name: 'og:card', content: 'summary'}],
     prism: {
       theme: require('prism-react-renderer/themes/nightOwlLight'),
+    },
+    colorMode: {
+      switchConfig: {
+        darkIcon: '🌙',
+        lightIcon: '☀️',
+      },
     },
     navbar: {
       title: 'manfredwern',

@@ -6,7 +6,7 @@
  */
 
 .heroBanner {
-  padding: 4rem 0 2rem;
+  padding: 2rem 2rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -21,12 +21,6 @@
   -webkit-clip-path: polygon(0 0,100% 0,100% calc(100% - 6vw),0 100%);
   clip-path: polygon(0 0, 100% 65px, 100% 100%, 0% 100%);
   padding-top: 5em;
-}
-
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem 2rem 0;
-  }
 }
 
 .buttons {
@@ -61,13 +55,36 @@ section {
 }
 
 .cardUp {
-  padding: 3rem;
-  margin: 2rem 1rem;
-  box-shadow: none;
+  padding: 1rem;
+  margin: 1rem;
   transition: all 0.85s cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
-.cardUp:hover {
-  box-shadow: 0px 12px 27px 8px rgb(0 0 0 / 12%);
-} 
+.projectTitle {
+  font-family: 'Trispace', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .heroBanner {
+    padding: 4rem 0 2rem;
+  }
+
+  .cardUp:hover {
+    box-shadow: 0px 12px 27px 8px rgb(0 0 0 / 12%);
+  } 
+
+  .projectTitle {
+    font-size: 5em;
+  }
+
+  .cardUp {
+    padding: 3rem;
+    margin: 2rem 1rem;
+    box-shadow: none;
+  }
+}
 
