@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manfredwern.github.io/blog"/>
     <subtitle>Hi, I'm Manfred. Blog</subtitle>
-    <icon>https://manfredwern.github.io/img/favicon.ico</icon>
+    <icon>https://manfredwern.github.io/img/icon/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
