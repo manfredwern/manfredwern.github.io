@@ -24,7 +24,7 @@ function Playground() {
           </div>
 
           <div className="row row--align-center">
-            <div className="col" style={{ alignSelf: "stretch" }}>
+            <div className="col margin-bottom--lg" style={{ alignSelf: "stretch" }}>
               <div className="card" style={{ height: "100%" }}>
                 <div className={clsx("card__image", styles.showcaseCardImage)}>
                   <div>
@@ -73,7 +73,7 @@ function Playground() {
                 </div>
               </div>
             </div>
-            <div className="col" style={{ alignSelf: "stretch" }}>
+            <div className="col margin-bottom--lg" style={{ alignSelf: "stretch" }}>
               <div className="card" style={{ height: "100%" }}>
                 <div className={clsx("card__image", styles.showcaseCardImage)}>
                   <div>
