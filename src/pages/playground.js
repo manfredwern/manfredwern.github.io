@@ -29,8 +29,8 @@ function Playground() {
                 <div className={clsx("card__image", styles.showcaseCardImage)}>
                   <div>
                     <img
-                      src="/static/img/nasa-apod-gallery.png"
-                      alt="Component Kit"
+                      src="/img/nasa-apod-gallery.png"
+                      alt="APOD_Image"
                       width="640"
                       height="322"
                       style={{
@@ -78,8 +78,8 @@ function Playground() {
                 <div className={clsx("card__image", styles.showcaseCardImage)}>
                   <div>
                     <img
-                      src="/static/img/treevya.png"
-                      alt="Component Kit"
+                      src="/img/treevya.png"
+                      alt="Treevya_Quiz_Image"
                       width="640"
                       height="322"
                       style={{
