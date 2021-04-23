@@ -66,6 +66,10 @@ section {
   font-size: 2em;
 }
 
+.showcaseCardImage {
+  max-height: 175px;
+  overflow: hidden;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -78,7 +82,7 @@ section {
   } 
 
   .projectTitle {
-    font-size: 5em;
+    font-size: 3em;
   }
 
   .cardUp {
