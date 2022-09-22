@@ -66,10 +66,10 @@ section {
   font-size: 2em;
 }
 
-.showcaseCardImage {
+/* .showcaseCardImage {
   max-height: 175px;
   overflow: hidden;
-}
+} */
 
 @media screen and (min-width: 768px) {
 

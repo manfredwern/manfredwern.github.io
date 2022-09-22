@@ -76,7 +76,7 @@ function Home() {
                   )}
                   to={useBaseUrl('cv/')}>
                   Get Started
-            </Link>
+                </Link>
               </div>
 
             </div>

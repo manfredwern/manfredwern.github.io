@@ -1,10 +1,8 @@
 import React from "react";
-import clsx from "clsx";
 import Layout from "@theme/Layout";
-import styles from "./styles.module.css";
-import Link from "@docusaurus/Link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMeteor } from "@fortawesome/free-solid-svg-icons";
+import ShowcaseCard from '../components/ShowcaseCard/ShowcaseCard';
 
 function Playground() {
   return (
@@ -25,99 +23,29 @@ function Playground() {
 
           <div className="row row--align-center">
             <div className="col margin-bottom--lg" style={{ alignSelf: "stretch" }}>
-              <div className="card" style={{ height: "100%" }}>
-                <div className={clsx("card__image", styles.showcaseCardImage)}>
-                  <div>
-                    <img
-                      src="/img/nasa-apod-gallery.png"
-                      alt="APOD_Image"
-                      width="640"
-                      height="322"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        maxWidth: "100%;",
-                        marginBottom: "-4px",
-                      }}
-                    />
-                  </div>
-                </div>
-                <div className="card__body">
-                  <div className="avatar">
-                    <div className="avatar__intro margin-left">
-                      <h4 className="avatar__name">APOD</h4>
-                      <div className="avatar__subtitle">
-                        <p>
-                          Travel back in time to discover the cosmos captured by
-                          nasa.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="card__footer">
-                  <div className="button-group button-group--block">
-                    <Link
-                      to="https://nasa-apod-gallery.herokuapp.com/"
-                      className="button button--small button--secondary button--block"
-                    >
-                      Website
-                    </Link>
-                    <Link
-                      to="https://github.com/manfredwern/nasa-apod-gallery"
-                      className="button button--small button--secondary button--block"
-                    >
-                      Source
-                    </Link>
-                  </div>
-                </div>
-              </div>
+
+              <ShowcaseCard
+                image='/img/nasa-apod-gallery.png'
+                website='https://github.com/manfredwern/nasa-apod-gallery'
+                github='https://nasa-apod-gallery.herokuapp.com/'
+                title='APOD'
+                text=' Travel back in time to discover the cosmos captured by
+                nasa.'
+                languages={['React','Javascript']}
+              ></ShowcaseCard>
+
             </div>
+
             <div className="col margin-bottom--lg" style={{ alignSelf: "stretch" }}>
-              <div className="card" style={{ height: "100%" }}>
-                <div className={clsx("card__image", styles.showcaseCardImage)}>
-                  <div>
-                    <img
-                      src="/img/treevya.png"
-                      alt="Treevya_Quiz_Image"
-                      width="640"
-                      height="322"
-                      style={{
-                        width: "100%",
-                        height: "auto",
-                        maxWidth: "100%;",
-                        marginBottom: "-4px",
-                      }}
-                    />
-                  </div>
-                </div>
-                <div className="card__body">
-                  <div className="avatar">
-                    <div className="avatar__intro margin-left">
-                      <h4 className="avatar__name">Treevya</h4>
-                      <div className="avatar__subtitle">
-                        <p>Test your skills and learn from Treevya Quiz.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="card__footer">
-                  <div className="button-group button-group--block">
-                    <Link
-                      to="https://treevya.herokuapp.com/"
-                      className="button button--small button--secondary button--block"
-                    >
-                      Website
-                    </Link>
-                    <Link
-                      to="https://github.com/manfredwern/treevya"
-                      className="button button--small button--secondary button--block"
-                    >
-                      Source
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              <ShowcaseCard
+                image='/img/treevya.png'
+                website='https://treevya.herokuapp.com/'
+                github='https://github.com/manfredwern/treevya'
+                title='Treevya'
+                text='Test your skills and learn from Treevya Quiz.'
+                languages={['React','Javascript']}
+              ></ShowcaseCard>
+            
             </div>
           </div>
         </div>
