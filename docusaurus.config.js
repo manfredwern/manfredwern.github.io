@@ -9,6 +9,7 @@ module.exports = {
   organizationName: 'manfredwern',
   projectName: 'manfredwern.github.io',
   deploymentBranch: 'master',
+  trailingSlash: false,
   themeConfig: {
     // metadatas: [{name: 'og:card', content: 'summary'}],
     prism: {
