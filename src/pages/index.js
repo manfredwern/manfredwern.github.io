@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faJs, faHtml5, faCss3Alt, faGit, faNpm, faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faJs, faHtml5, faCss3Alt, faGit, faNpm, faBootstrap, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const features = [
   {
@@ -111,6 +111,7 @@ function Home() {
               <div className="col">
 
                 <FontAwesomeIcon icon={faAngular} size="4x" pull="left" border />
+                <FontAwesomeIcon icon={faReact} size="4x" pull="left" border />
                 <FontAwesomeIcon icon={faHtml5} size="4x" pull="left" border />
                 <FontAwesomeIcon icon={faCss3Alt} size="4x" pull="left" border />
                 <FontAwesomeIcon icon={faJs} size="4x" pull="left" border />

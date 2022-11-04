@@ -36,10 +36,10 @@ module.exports = {
       label: 'Getting Started',
       items: ['about-me','technical-skills']
     },
-    // {
-    //   type: 'doc',
-    //   id: 'about-me'
-    // },
+    {
+      type: 'doc',
+      id: 'projects'
+    },
     // {
     //   type: 'doc',
     //   id: 'technical-skills'

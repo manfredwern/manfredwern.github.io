@@ -1,10 +1,9 @@
 ---
 id: technical-skills
-title: Development environment
-sidebar_label: Technical Skills
+title: Technical Experiences
+sidebar_label: Technical Experiences
 ---
 
-## Frontend skills
 
 Run this command to get ready for production:
 
@@ -12,45 +11,49 @@ Run this command to get ready for production:
 npm run build manfredwern
 ```
 
-Here are the programming languages, frameworks, and tools that help me develop web applications.
+## Frontend languages and frameworks
+
+Below are the programming languages and frameworks that help me develop web applications using `Visual Studo Code` as my IDE of choice.
+
+```javascript
+import Languages from '@Languages'
+import Frameworks from '@Frameworks'
+
+class ManfredWern {
+  render() {
+    return (
+      <pre>
+        {
+          languages: ['HTML5','CSS','Javascript','Typescript'],
+          frameworks: ['React','Angular','NgRx']
+        }
+      </pre>
+    )
+  }
+}
+```
+
+## Creative Section
+
+And for my creative side, I am familiar with these tools.
+
+```json
+{
+  "tools": ["Adobe Photoshop", "Adobe Lightroom", "Adobe Indesign"]
+}
+```
 
 
-```json title="Technical skills"
-[{
-  "skills": [{
-    "languages": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "PHP",
-    ],
-    "frameworks": [
-      "Angular",
-      "NgRx",
-      "Bootstrap",
-      "React",
-      "Vue",
-    ],
-    "libraries": [
-        "npm",
-        "yarn",
-        "jQuery",
-    ],
-    "databases": [
-        "MYSQL",
-    ],
-    "tools": [
-        "VSCode",
-        "PyCharm",
-        "git",
-        "postman",
-        "node.js",
-        "WordPress",
-        "Adobe Photoshop",
-        "Adobe InDesign",
-    ]
-  }]
-}]
+## Experimental Features
+
+I am aslo keen in exploring other programming languages and enjoy the exploration to learn something new. bla bla bla
+
+```javascript
+
+const inProgress = () => {
+  return [
+    'Python'
+    'NextJS'
+  ]  
+}
 ```
