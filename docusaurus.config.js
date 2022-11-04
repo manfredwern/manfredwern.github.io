@@ -8,6 +8,7 @@ module.exports = {
   favicon: 'img/icon/favicon.ico',
   organizationName: 'manfredwern',
   projectName: 'manfredwern.github.io',
+  deploymentBranch: 'master',
   themeConfig: {
     // metadatas: [{name: 'og:card', content: 'summary'}],
     prism: {
