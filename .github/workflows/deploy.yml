@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: documentation
 
 on:
   pull_request:
@@ -32,7 +32,7 @@ jobs:
       - uses: webfactory/ssh-agent@v0.5.0
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
-      - name: Deploy to GitHub Pages
+      - name: documentation
         env:
           USE_SSH: true
         run: |
