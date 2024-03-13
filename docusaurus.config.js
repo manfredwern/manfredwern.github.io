@@ -1,6 +1,6 @@
 module.exports = {
   title: "Hi, I'm Manfred.",
-  tagline: "I'm a naturally curious person in search of new coding experiences 👨‍💻",
+  tagline: "Join me as I explore new horizons and push the boundaries of what's possible in the world of code! 👨‍💻",
   url: 'https://manfredwern.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
