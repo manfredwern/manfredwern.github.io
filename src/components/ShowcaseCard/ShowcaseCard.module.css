@@ -1,0 +1,80 @@
+.showcaseCardImage {
+    border-bottom: 2px solid var(--ifm-color-emphasis-200);
+    height: 150px;
+    overflow: hidden
+}
+
+.showcaseCardHeader {
+    align-items: center;
+    display: flex;
+    margin-bottom: 12px
+}
+
+.showcaseCardTitle {
+    flex: 1 1 auto;
+    margin-bottom: 0
+}
+
+.showcaseCardTitle a {
+    background: linear-gradient(var(--ifm-color-primary),var(--ifm-color-primary)) 0 100%/0 1px no-repeat;
+    text-decoration: none;
+    transition: background-size .2s ease-out
+}
+
+.showcaseCardTitle a:not(:focus):hover {
+    background-size: 100% 1px
+}
+
+a {
+    color: var(--ifm-link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ifm-link-hover-color);
+    text-decoration: none;
+}
+
+
+.showcaseCardSrcBtn {
+    border: none;
+    margin-left: 6px;
+    padding-left: 12px;
+    padding-right: 12px
+}
+
+.showcaseCardSrcBtn:focus-visible {
+    background-color: var(--ifm-color-secondary-dark)
+}
+
+.showcaseCardBody {
+    font-size: smaller;
+    line-height: 1.66
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.cardFooter {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.tag {
+    align-items: center;
+    border: 1px solid var(--ifm-color-secondary-darkest);
+    border-radius: 12px;
+    cursor: default;
+    display: inline-flex;
+    font-size: .675rem;
+    margin-bottom: 6px!important;
+    margin-right: 6px
+}
+
+.tag .textLabel {
+    margin-left: 8px;
+    margin-right: 8px;
+}
