@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngular, faJs, faHtml5, faCss3Alt, faGit, faNpm, faBootstrap, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faJs, faHtml5, faCss3Alt, faGit, faNpm, faBootstrap, faReact, faYarn } from '@fortawesome/free-brands-svg-icons'
 
 const features = [
   {
@@ -14,7 +14,7 @@ const features = [
     imageUrl: 'img/undraw_completed_ngx6.svg',
     description: (
       <>
-        Staying focused is a key factor for me to reach my goals.
+        Being goal-oriented, staying focused is essential for me to achieve my objectives."
       </>
     ),
   },
@@ -23,8 +23,7 @@ const features = [
     imageUrl: 'img/undraw_design_objectives_fy1r.svg',
     description: (
       <>
-        No matter what challenges I face, being adaptable is always a way for me to overcome and complete my tasks.
-        This also helps me to discover what else I can do.
+        I thrive in overcoming challenges and completing tasks by embracing change. This flexibility not only assists in task completion but also reveals new capabilities waiting to be explored.
       </>
     ),
   },
@@ -33,7 +32,7 @@ const features = [
     imageUrl: 'img/undraw_developer_activity_bv83.svg',
     description: (
       <>
-        There is no better way to learn than practice. That is why I believe in learning by doing.
+        There's no substitute for learning like hands-on practice. That's why I firmly believe in the 'learning by doing' approach.
       </>
     ),
   },
@@ -106,10 +105,9 @@ function Home() {
               <div className="col">
 
                 <h2>Supported tools</h2>
-                <p>Here are my most frequently used Framework and Languages.</p>
+                <p>These are the frameworks and languages I use most frequently:</p>
               </div>
               <div className="col">
-
                 <FontAwesomeIcon icon={faAngular} size="4x" pull="left" border />
                 <FontAwesomeIcon icon={faReact} size="4x" pull="left" border />
                 <FontAwesomeIcon icon={faHtml5} size="4x" pull="left" border />
@@ -118,8 +116,7 @@ function Home() {
                 <FontAwesomeIcon icon={faBootstrap} size="4x" pull="left" border />
                 <FontAwesomeIcon icon={faGit} size="4x" pull="left" border />
                 <FontAwesomeIcon icon={faNpm} size="4x" pull="left" border />
-
-
+                <FontAwesomeIcon icon={faYarn} size="4x" pull="left" border />
               </div>
             </div>
           </div>

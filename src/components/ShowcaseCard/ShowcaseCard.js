@@ -46,7 +46,7 @@ function ShowcaseCard({ image, website, github, title, text, languages }) {
         </div>
 
         <ul className={clsx("card__footer", styles.cardFooter)}>
-          {languages && languages.map((lang, index) => (
+          {languages?.map((lang, index) => (
             <li
               key={index}
               className={styles.tag}>
