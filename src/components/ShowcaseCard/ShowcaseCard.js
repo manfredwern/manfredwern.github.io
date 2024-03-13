@@ -5,7 +5,6 @@ import styles from "./ShowcaseCard.module.css";
 
 function ShowcaseCard({ image, website, github, title, text, languages }) {
   return (
-    <>
       <div className="card" style={{ height: "100%" }}>
         <div className={clsx("card__image", styles.showcaseCardImage)}>
           <div>
@@ -56,7 +55,6 @@ function ShowcaseCard({ image, website, github, title, text, languages }) {
           ))}
         </ul>
       </div>
-    </>
   )
 }
 
